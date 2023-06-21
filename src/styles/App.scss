@@ -1,0 +1,16 @@
+@import './scss/_reset.module';
+@import './scss/_variables.module';
+@import './scss/fonts.module';
+
+body {
+  font-family: 'Airbnb Cereal App', Arial, sans-serif;
+  height: 100%;
+}
+
+html,
+#root {
+  line-height: 24px;
+  height: 100vh;
+  font-size: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,84 @@
+.welcome-box {
+  width: 100%;
+  padding: 85px 20px 0 20px;
+  text-align: center;
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__info {
+    font-size: 1.6rem;
+    margin: 8px 0 70px 0;
+    font-weight: 400;
+
+    &--confirmation-phone {
+      font-size: 1.6rem;
+      margin: 8px 0 33px 0;
+      font-weight: 400;
+    }
+  }
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 25px 0 25px;
+
+  &__info {
+    color: #9b9b9b;
+    font-size: 1.6rem;
+    margin-top: 24px;
+    font-weight: 400;
+  }
+
+  &__phone {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+  &__verification-code {
+    & > div {
+      width: 52px;
+      height: 52px;
+      border-radius: 8px;
+
+      & > div {
+        height: 52px;
+      }
+
+      input {
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 500;
+        color: #595959;
+      }
+
+      &:not(:last-child) {
+        padding-right: 4px;
+      }
+    }
+  }
+
+  &__verification-error {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #c02220;
+    margin-top: 4px;
+    margin-right: 60px;
+  }
+
+  &__resend-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
